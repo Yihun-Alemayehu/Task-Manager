@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:task_manager/model/task.dart';
 
 class TaskScreen extends StatelessWidget {
-  const TaskScreen({super.key});
+  TaskScreen({super.key});
+
+  List<Task> taskList = [];
 
   @override
   Widget build(BuildContext context) {
@@ -16,9 +19,7 @@ class TaskScreen extends StatelessWidget {
         ],
       ),
       body: const Column(
-        children: [
-          
-        ],
+        children: [],
       ),
     );
   }
