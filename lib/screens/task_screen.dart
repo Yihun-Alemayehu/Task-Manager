@@ -4,13 +4,6 @@ import 'package:task_manager/model/task.dart';
 class TaskScreen extends StatelessWidget {
   TaskScreen({super.key});
 
-  List<Task> taskList = [
-    Task(title: 'task_1'),
-    Task(title: 'task_2'),
-    Task(title: 'task_3'),
-    Task(title: 'task_4'),
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
